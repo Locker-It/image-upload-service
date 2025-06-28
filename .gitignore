@@ -1,0 +1,64 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+
+
+# Logs
+*.log
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VSCode
+.vscode/
+.history/
+
+# npm cache
+.npm/
+
+# Build output
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# System
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Git
+*.rej
+*.patch
+
+# Docker (אם תשתמש)
+docker-compose.override.yml
+docker-compose.local.yml
+.dockerignore
+*.tar
+*.gz
+
+# Swagger JSON/HTML (אם מייצר)
+swagger.json
+swagger.yaml
