@@ -52,12 +52,7 @@ temp/
 *.rej
 *.patch
 
-# Docker (אם תשתמש)
-docker-compose.override.yml
-docker-compose.local.yml
-.dockerignore
-*.tar
-*.gz
+
 
 # Swagger JSON/HTML (אם מייצר)
 swagger.json
